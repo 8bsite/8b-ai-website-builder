@@ -1,0 +1,19 @@
+{
+  "name": "8b",
+  "displayName": "8B AI Website Builder",
+  "description": "Make a website with 8B from Claude: choose an 8B design, get every text, color, font and photo written for your business, see a live animated preview right in the conversation and download the site.",
+  "version": "0.1.0",
+  "author": {
+    "name": "8B",
+    "url": "https://8b.com"
+  },
+  "homepage": "https://8b.com",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "website builder",
+    "landing page",
+    "web design",
+    "8b"
+  ]
+}
