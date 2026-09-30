@@ -8,8 +8,12 @@
     "url": "https://8b.com"
   },
   "homepage": "https://8b.com",
+  "repository": "https://github.com/8bsite/8b-ai-website-builder",
+  "documentationUrl": "https://github.com/8bsite/8b-ai-website-builder#readme",
+  "supportUrl": "mailto:s@8b.com",
   "icon": ".claude-plugin/icon.svg",
   "privacyPolicyUrl": "https://8b.com/privacy.html",
+  "termsOfServiceUrl": "https://8b.com/tos.html",
   "license": "MIT",
   "keywords": [
     "website",
