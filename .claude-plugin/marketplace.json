@@ -1,9 +1,12 @@
 {
   "name": "8b",
-  "owner": { "name": "8B", "email": "s@8b.com" },
+  "owner": {
+    "name": "8B",
+    "email": "s@8b.com"
+  },
   "plugins": [
     {
-      "name": "8b",
+      "name": "8b-ai-website-builder",
       "source": "./claude",
       "description": "8B AI Website Builder: make a website in the chat with a live preview"
     }

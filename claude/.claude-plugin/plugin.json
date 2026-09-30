@@ -1,13 +1,15 @@
 {
-  "name": "8b",
+  "name": "8b-ai-website-builder",
   "displayName": "8B AI Website Builder",
   "description": "Make a website with 8B from Claude: choose an 8B design, get every text, color, font and photo written for your business, see a live animated preview right in the conversation and download the site.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "8B",
     "url": "https://8b.com"
   },
   "homepage": "https://8b.com",
+  "icon": ".claude-plugin/icon.svg",
+  "privacyPolicyUrl": "https://8b.com/privacy.html",
   "license": "MIT",
   "keywords": [
     "website",

@@ -19,7 +19,7 @@ Ask for changes in plain words. When you like the site, download it as one HTML 
 
 ```
 /plugin marketplace add 8bsite/8b-ai-website-builder
-/plugin install 8b@8b
+/plugin install 8b-ai-website-builder@8b
 ```
 
 ## Tools
