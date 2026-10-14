@@ -22,6 +22,15 @@ Ask for changes in plain words. When you like the site, download it as one HTML 
 /plugin install 8b-ai-website-builder@8b-ai-website-builder
 ```
 
+## Good to know
+
+- Name 8B in the request ("...with 8B"); otherwise Claude may design the page itself.
+- It makes one-page websites and landing pages: no accounts, database, checkout or several pages.
+- Contact and newsletter forms are visual: they show a thank-you message and send nothing.
+- Photos come from Unsplash searches. Previews are kept for 90 days after the last build or download.
+- The downloaded file can be used and edited for any site, including commercial and client work, but not resold as a template.
+- Step-by-step setup, limits and errors: [8b.com/mcp/claude-code.html](https://8b.com/mcp/claude-code.html)
+
 ## Tools
 
 - `explore_designs` lists the 8B designs and the kinds of business each one suits.
