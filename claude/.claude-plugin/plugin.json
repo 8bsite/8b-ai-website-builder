@@ -1,8 +1,8 @@
 {
   "name": "8b-ai-website-builder",
   "displayName": "8B AI Website Builder",
-  "description": "Make a website with 8B from Claude: choose an 8B design, get every text, color, font and photo written for your business, see a live animated preview right in the conversation and download the site.",
-  "version": "0.2.0",
+  "description": "Create animated websites and landing pages right in the Claude chat. Describe it, see it live, change it in plain words, download the HTML. No sign-up, no API key.",
+  "version": "0.2.1",
   "author": {
     "name": "8b Tech Ltd",
     "url": "https://8b.com"
@@ -10,7 +10,7 @@
   "homepage": "https://8b.com",
   "repository": "https://github.com/8bsite/8b-ai-website-builder",
   "documentationUrl": "https://github.com/8bsite/8b-ai-website-builder#readme",
-  "supportUrl": "mailto:s@8b.com",
+  "supportUrl": "https://github.com/8bsite/8b-ai-website-builder/issues",
   "icon": ".claude-plugin/icon.svg",
   "privacyPolicyUrl": "https://8b.com/privacy.html",
   "termsOfServiceUrl": "https://8b.com/tos.html",
