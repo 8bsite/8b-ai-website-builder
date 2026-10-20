@@ -1,0 +1,98 @@
+{
+  "$schema": "https://open-design.ai/schemas/plugin.v1.json",
+  "specVersion": "1.0.0",
+  "name": "8b-website-template",
+  "title": "8B Website Templates",
+  "version": "0.1.0",
+  "description": "Picks one of 20 free MIT one-file HTML website templates (GSAP scroll motion, an AGENTS.md each) for the user's business, downloads it into the project with curl and fills it with the owner's real facts.",
+  "license": "MIT",
+  "author": {
+    "name": "8b Tech Ltd",
+    "url": "https://8b.com"
+  },
+  "homepage": "https://8b.com/templates/",
+  "plugin": {
+    "repo": "https://github.com/8bsite/8b-ai-website-builder/tree/main/templates/skills/8b-website-template"
+  },
+  "tags": [
+    "create",
+    "prototype",
+    "website",
+    "landing-page",
+    "html-template",
+    "single-file",
+    "gsap",
+    "small-business"
+  ],
+  "compat": {
+    "agentSkills": [
+      {
+        "path": "./SKILL.md"
+      }
+    ]
+  },
+  "od": {
+    "kind": "skill",
+    "taskKind": "new-generation",
+    "mode": "prototype",
+    "platform": "desktop",
+    "scenario": "marketing",
+    "preview": {
+      "type": "html",
+      "entry": "./preview/index.html",
+      "motion": "scroll"
+    },
+    "useCase": {
+      "query": {
+        "en": "Start a one-page website for {{business}} from a free 8B HTML template: pick the closest of the 20, download it into the project, read its AGENTS.md and replace the demo content with the facts I give you.",
+        "zh-CN": "从免费的 8B HTML 模板开始为 {{business}} 制作单页网站：从 20 个模板中选出最合适的一个，下载到项目中，阅读其 AGENTS.md，并用我提供的真实信息替换演示内容。"
+      },
+      "exampleOutputs": [
+        {
+          "path": "./preview/index.html",
+          "title": "The 20 templates"
+        }
+      ]
+    },
+    "inputs": [
+      {
+        "name": "business",
+        "label": "Business type and name",
+        "type": "string",
+        "required": true,
+        "placeholder": "a brasserie called Le Coin in Lyon"
+      }
+    ],
+    "context": {
+      "skills": [
+        {
+          "path": "./SKILL.md"
+        }
+      ],
+      "assets": [
+        "./preview/index.html"
+      ]
+    },
+    "pipeline": {
+      "stages": [
+        {
+          "id": "plan",
+          "atoms": [
+            "todo-write"
+          ]
+        },
+        {
+          "id": "generate",
+          "atoms": [
+            "file-write",
+            "live-artifact"
+          ]
+        }
+      ]
+    },
+    "capabilities": [
+      "prompt:inject",
+      "fs:write"
+    ]
+  }
+}

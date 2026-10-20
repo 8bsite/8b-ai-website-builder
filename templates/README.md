@@ -23,6 +23,8 @@ Ask for a site ("make a landing page for my coworking space from a template") an
 npx skills add 8bsite/8b-ai-website-builder
 ```
 
+**OpenDesign:** `od plugin install https://github.com/8bsite/8b-ai-website-builder/tree/main/templates/skills/8b-website-template`
+
 No account, API key or MCP server is needed: the skill reads https://8b.com/templates/llms.txt and downloads from GitHub.
 
 ## Good to know

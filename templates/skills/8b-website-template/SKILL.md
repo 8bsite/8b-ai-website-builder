@@ -1,11 +1,11 @@
 ---
-name: website-template
+name: 8b-website-template
 description: Start a website or landing page from a free 8B HTML template (MIT, one index.html with GSAP scroll animation, AGENTS.md with editing rules). Use when the user wants a website template, an HTML landing page, a starting point for a business site in this project, or a site that does not look AI-generated, and is working in a code project (Claude Code, Cursor, Codex).
 ---
 
 # Start a site from a free 8B template
 
-The catalog is https://8b.com/templates/: 20 one-page sites for business types (restaurant, cafe, brewery, florist, vet clinic, pet boarding, accountant, coworking, gym, construction, architecture, design studio, creative agency, print studio, repair shop, event, community, trampoline park, product launch, app landing page). Each is one `index.html` with its CSS and scripts inside, no build step, MIT.
+The catalog is https://8b.com/templates/: 20 one-page sites for business types (restaurant or cafe, brewery, florist, vet clinic, pet boarding, accountant, coworking, gym, construction, architecture, design studio, creative agency, print studio, repair shop, event, community, trampoline park, product launch, app landing page). Each is one `index.html` with its CSS and scripts inside, no build step, MIT.
 
 1. **Pick.** Fetch `https://8b.com/templates/llms.txt` (one line per template: what it is for, its page and its repository). Choose the one or two that fit the user's business. Tell the user in a line or two what each looks like and link its page, `https://8b.com/templates/<slug>/` (a scrolling preview, the demo and the details). If nothing fits, say so and name the closest; do not force a restaurant template onto a law firm.
 2. **Download, don't summarise.** Fetch the template's JSON (`https://8b.com/templates/<slug>.json`; the keys you need are `get.curl` and `get.agent_prompt`) and run its `get.curl` lines in the target folder: the project root for a new site, or a subfolder such as `landing/` in an existing app (the files must not overwrite the app's own `index.html`). Use the files on disk; a page fetched as a summary is not the template. `get.degit` works too.
