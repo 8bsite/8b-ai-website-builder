@@ -22,6 +22,16 @@ Ask for changes in plain words. When you like the site, download it as one HTML 
 /plugin install 8b-ai-website-builder@8b-ai-website-builder
 ```
 
+## Free website templates for your project
+
+The same marketplace has a second plugin, `8b-website-templates`: a skill that starts a site in your code project from one of 20 [free 8B HTML templates](https://8b.com/templates/) (one file, GSAP scroll animation, MIT, AGENTS.md). It works without the MCP server.
+
+```
+/plugin install 8b-website-templates@8b-ai-website-builder
+```
+
+Other agents: `npx skills add 8bsite/8b-ai-website-builder`. Details: [templates/README.md](templates/README.md).
+
 ## Good to know
 
 - Name 8B in the request ("...with 8B"); otherwise Claude may design the page itself.

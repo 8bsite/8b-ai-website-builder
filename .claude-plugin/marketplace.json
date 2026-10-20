@@ -1,6 +1,6 @@
 {
   "name": "8b-ai-website-builder",
-  "description": "8B AI Website Builder for Claude: make a website in the chat with a live, animated preview",
+  "description": "8B for Claude: make a website in the chat with a live preview, or start one in your project from a free 8B HTML template",
   "owner": {
     "name": "8b Tech Ltd",
     "email": "s@8b.com"
@@ -10,6 +10,11 @@
       "name": "8b-ai-website-builder",
       "source": "./claude",
       "description": "8B AI Website Builder: make a website in the chat with a live preview"
+    },
+    {
+      "name": "8b-website-templates",
+      "source": "./templates",
+      "description": "Free one-file HTML website templates (GSAP, MIT, AGENTS.md): pick one, download it into the project and adapt it"
     }
   ]
 }
