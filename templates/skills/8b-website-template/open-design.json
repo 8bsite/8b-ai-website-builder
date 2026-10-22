@@ -3,7 +3,7 @@
   "specVersion": "1.0.0",
   "name": "8b-website-template",
   "title": "8B Website Templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Picks one of 20 free MIT one-file HTML website templates (GSAP scroll motion, an AGENTS.md each) for the user's business, downloads it into the project with curl and fills it with the owner's real facts.",
   "license": "MIT",
   "author": {
@@ -92,7 +92,9 @@
     },
     "capabilities": [
       "prompt:inject",
-      "fs:write"
+      "fs:write",
+      "network",
+      "bash"
     ]
   }
 }

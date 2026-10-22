@@ -2,7 +2,7 @@
   "name": "8b-website-templates",
   "displayName": "8B Website Templates",
   "description": "Free HTML website templates for coding agents: 20 one-file sites with GSAP scroll animation, MIT, each with an AGENTS.md. The skill picks one for the business, downloads it into the project and adapts it with real facts.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "8b Tech Ltd",
     "url": "https://8b.com"
